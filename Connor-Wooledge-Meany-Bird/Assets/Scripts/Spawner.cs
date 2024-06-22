@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("IstantiateObjects",1f,4f);
+        InvokeRepeating("InstantiateObjects",1f,4f);
 
     }
 
